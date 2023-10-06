@@ -1,5 +1,6 @@
 lastname = input("Enter the customer's last name: ")
-sales = float(input("Enter the sales amount: £"))
+sales = input("Enter the sales amount: £")
+sales = float(sales)
 commission = sales * 0.15
 print()
 print("Customer: "+ lastname)
